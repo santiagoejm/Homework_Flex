@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+header nav.navigation {
+    height: auto;
+    box-shadow: 0 3px 3px 3px #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+header nav.navigation span {
+    font-size: 30px;
+    font-weight: 500;
+    color: #444;
+    margin: auto 20px;
+}
+
+header nav.navigation ul {
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto 20px;
+}
+
+header nav.navigation ul li {
+    list-style: none;
+    margin: auto 20px;
+    color: #444;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+header nav.navigation ul li.current {
+    font-weight: bolder;
+    color: #111;
+}
+
+
+header nav.navigation ul li a {
+    text-decoration: none;
+    color: #444;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px auto;
+}
+
+main aside {
+    width: 24%;
+    height: 500px;
+    box-shadow: 0 3px 3px 3px #ccc;
+}
+
+main aside ul li {
+    list-style: none;
+    margin: 20px 0 10px -20px;
+    color: #444;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+main article {
+    display: flex;
+    flex-flow: column wrap;
+    width: 75%;
+    height: auto;
+    color: #444;
+}
+
+main article section.info {
+    box-shadow: 0 3px 3px 3px #ccc;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+main article section.info span.title {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+main article section.info span.date {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main article section.info footer {
+    color: #0d0dee;
+    text-align: end;
+    font-weight: bolder;
+}
+
+footer.footer {
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: #444;
+    color: #fff;
+    box-sizing: border-box;
+    margin-left: -20px;
+    margin-right: -20px;
+    height: 30vh;
+}
+
+footer.footer div.logo {
+    width: 23%;
+}
+
+
+footer.footer div.logo span {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+footer.footer div.list {
+    width: 40%;
+    margin-top: 15px;
+}
+
+footer.footer div.list ul li {
+    list-style: none;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+footer.footer div.form {
+    margin-top: 15px;
+}
+
+footer.footer div.form input {
+    background-color: #333;
+    width: 120%;
+    height: 4vh;
+}
+
+footer.footer div.form input::placeholder {
+    color: #fff;
+}
+
+footer.footer div.form button {
+    width: 12vw;
+    background-color: #0870f8;
+    color: #fff;
+}
