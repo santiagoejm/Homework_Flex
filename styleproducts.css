@@ -59,6 +59,42 @@ main div.items {
     box-shadow: 0 3px 3px 3px #ccc;
 }
 
+main div.one {
+    background-image: url("https://picsum.photos/200/200?random=1");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+main div.two {
+    background-image: url("https://picsum.photos/200/200?random=2");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+main div.three {
+    background-image: url("https://picsum.photos/200/200?random=3");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+main div.four {
+    background-image: url("https://picsum.photos/200/200?random=4");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+main div.five {
+    background-image: url("https://picsum.photos/200/200?random=5");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+main div.six {
+    background-image: url("https://picsum.photos/200/200?random=6");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 footer.footer {
     display: flex;
     /* justify-content: space-between; */
